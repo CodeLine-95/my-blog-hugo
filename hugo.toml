@@ -1,0 +1,40 @@
+baseURL = 'https://example.org/'
+locale = 'zh-cn'
+title = 'hugo 博客'
+theme = 'PaperMod'
+
+# 开启搜索功能必须配置
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[params]
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  # 显示文章目录 (TOC)
+  ShowToc = true
+  TocOpen = false
+
+[params.homeInfoParams]
+  Title = "Hi there 👋"
+  Content = "欢迎来到我的 Hugo 博客"
+
+# [[menu.main]] 定义了主菜单的一个项目
+[[menu.main]]
+  name = "首页"           # 显示在菜单栏上的文字
+  url = "/"              # 点击后跳转的链接路径
+  weight = 1             # 权重，数字越小越靠左排列
+
+[[menu.main]]
+  name = "归档"
+  url = "/archives/"
+  weight = 2
+
+[[menu.main]]
+  name = "搜索"
+  url = "/search/"
+  weight = 3
+
+[[menu.main]]
+  name = "关于"
+  url = "/about/"
+  weight = 4
