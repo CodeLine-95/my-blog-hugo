@@ -1,4 +1,4 @@
-baseURL = 'https://my-blog-hugo-tau.vercel.app/'  # 换成你的真实域名
+baseURL = 'https://www.qsjob.fun'  # 换成你的真实域名
 locale = 'zh-cn'
 title = 'hugo 博客'
 theme = 'PaperMod'
