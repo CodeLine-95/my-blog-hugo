@@ -9,12 +9,17 @@ theme = 'PaperMod'
   page = ["HTML"]
   section = ["HTML", "RSS"]
 
+[imaging]
+  quality = 75
+  resampleFilter = "lanczos"
+
 [params]
   defaultTheme = "auto"
   ShowReadingTime = true
   # 显示文章目录 (TOC)
-  ShowToc = true
+  ShowToc = false
   TocOpen = false
+  figurePositionShow = true
 
 [params.homeInfoParams]
   Title = "Hi there 👋"
