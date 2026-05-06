@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://my-blog-hugo-tau.vercel.app/'  # 换成你的真实域名
 locale = 'zh-cn'
 title = 'hugo 博客'
 theme = 'PaperMod'
@@ -6,6 +6,8 @@ theme = 'PaperMod'
 # 开启搜索功能必须配置
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+  page = ["HTML"]
+  section = ["HTML", "RSS"]
 
 [params]
   defaultTheme = "auto"
