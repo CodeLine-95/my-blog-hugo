@@ -16,11 +16,14 @@ defaultContentLanguage = "zh"
 
 [params]
   defaultTheme = "auto"
+  ShowShareButtons = true  # 开启分享功能【文章页】
   # ShowReadingTime = true
   # 显示文章目录 (TOC)
   ShowToc = false
   TocOpen = false
   figurePositionShow = true
+  ShowCodeCopyButtons = true  # 开启代码块复制按钮
+  ShowPostNavLinks = true  # 开启上、下一页【文章页】
 
 [params.homeInfoParams]
   Title = "你好！ 👋"
