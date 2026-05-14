@@ -8,14 +8,30 @@
 
 > Based on [hugo-paper](https://github.com/nanxiaobei/hugo-paper/tree/4330c8b12aa48bfdecbcad6ad66145f679a430b3), with additional features and customization options.
 
-| Resource            | Link                                                                                    |
-| ------------------- | --------------------------------------------------------------------------------------- |
-| Live Demo           | [adityatelange.github.io/hugo-PaperMod](https://adityatelange.github.io/hugo-PaperMod/) |
-| Documentation 📚    | [Wiki](https://github.com/adityatelange/hugo-PaperMod/wiki)                             |
-| Example Site Source | [exampleSite branch](https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite)   |
+<table>
+	<tbody>
+		<tr>
+			<td>Live Demo</td>
+			<td><a href="https://adityatelange.github.io/hugo-PaperMod/">adityatelange.github.io/hugo-PaperMod</a></td>
+		</tr>
+		<tr>
+			<td>Documentation 📚</td>
+			<td><a href="https://github.com/adityatelange/hugo-PaperMod/wiki">Github Wiki</a></td>
+		</tr>
+		<tr>
+			<td>Example Site Source</td>
+			<td><a href="https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite">exampleSite branch</a></td>
+		</tr>
+		<tr>
+			<td><a href="https://www.star-history.com/adityatelange/hugo-papermod"><img src="https://api.star-history.com/badge?repo=adityatelange/hugo-PaperMod&amp;theme=dark" alt="Star History Rank" /></a></td>
+			<td><a href="https://ko-fi.com/H2H229ZWH"><img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="ko-fi" /></a></td>
+		</tr>
+	</tbody>
+</table>
+
 
 <p align="center">
-  <kbd><img src="https://user-images.githubusercontent.com/21258296/114303440-bfc0ae80-9aeb-11eb-8cfa-48a4bb385a6d.png" alt="Mockup image" title="Mockup"/></kbd>
+  <img src="https://user-images.githubusercontent.com/21258296/114303440-bfc0ae80-9aeb-11eb-8cfa-48a4bb385a6d.png" alt="Mockup image" title="Mockup"/>
 </p>
 
 ---
