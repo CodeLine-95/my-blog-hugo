@@ -1,7 +1,8 @@
 baseURL = 'https://www.qsjob.fun'  # 换成你的真实域名
 locale = 'zh-cn'
-title = 'hugo 博客'
+title = '码一行'
 theme = 'PaperMod'
+defaultContentLanguage = "zh"
 
 # 开启搜索功能必须配置
 [outputs]
@@ -15,15 +16,19 @@ theme = 'PaperMod'
 
 [params]
   defaultTheme = "auto"
-  ShowReadingTime = true
+  # ShowReadingTime = true
   # 显示文章目录 (TOC)
   ShowToc = false
   TocOpen = false
   figurePositionShow = true
 
 [params.homeInfoParams]
-  Title = "Hi there 👋"
-  Content = "欢迎来到我的 Hugo 博客"
+  Title = "你好！ 👋"
+  Content = "欢迎来到我的博客"
+
+[params.footer]
+  # 自定义页脚
+  text = "用 ❤️ 记录技术成长"
 
 # [[menu.main]] 定义了主菜单的一个项目
 [[menu.main]]
@@ -40,8 +45,3 @@ theme = 'PaperMod'
   name = "搜索"
   url = "/search/"
   weight = 3
-
-[[menu.main]]
-  name = "关于"
-  url = "/about/"
-  weight = 4
